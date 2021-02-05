@@ -37,7 +37,7 @@ Pero tambien dicha aplicacion tiene un despliegue en heroku que puedes utilizar 
 
 **LINK HEROKU**
 
-## Pruebas
+## Pruebas [![CircleCI](https://circleci.com/gh/johanrueda/CalculatorArep2.0.svg?style=svg)](https://circleci.com/gh/johanrueda/CalculatorArep2.0)
 
 Para ejecutar las pruebas basta con un comando sencillo ya que estan automatizadas con el framework JUnit:
 
