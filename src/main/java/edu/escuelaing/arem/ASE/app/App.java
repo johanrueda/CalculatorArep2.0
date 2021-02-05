@@ -4,10 +4,15 @@ import static spark.Spark.*;
 
 /**
  * @author Johan Rueda
+ * Clase principal que lee el conjunto de datos ingresados, separado por comas ","
  */
 
 public class App {
 
+    /**
+     * metodo principal que lee los datos
+     * @param args principal
+     */
     public static void main(String[] args) {
         staticFileLocation("/public");
         port(getPort());
@@ -30,6 +35,10 @@ public class App {
         });
     }
 
+    /**
+     * metodo que nos retorna un puerto
+     * @return entero que indica el puerto
+     */
     static int getPort() {
         if (System.getenv("PORT") != null) {
             return Integer.parseInt(System.getenv("PORT"));
