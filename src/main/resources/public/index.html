@@ -32,16 +32,16 @@
                 <textarea id="lista" rows="3" style = "width: 500px; height: 100px;"></textarea>
                 <br>
                 <br>
-                <button id="buttonCalcular" onclick="app.calcularValores()">Calcular</button>
+                <button id="calcular" onclick="verificador.calcularValores()">Calcular</button>
                 <br>
                 <br>
                 <h1>
                     Media:
-                    <div id="mean" style = "display:inline-block;"></div>
+                    <div id="media" style = "display:inline-block;"></div>
                 </h1>
                 <h1>
                     Desviación Estándar:
-                    <div id="dev" style = "display:inline-block;"></div>
+                    <div id="desvi" style = "display:inline-block;"></div>
                 </h1>
             </div>
 
@@ -69,8 +69,8 @@
 
 </div>
 </header>
-  <script src="js/apiclient.js"></script>
-  <script src="js/app.js"></script>
+  <script src="js/datos.js"></script>
+  <script src="js/verificador.js"></script>
  <script src="https://cdn.polyfill.io/v2/polyfill.min.js?callback=polyfillsAreLoaded" defer></script>
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
  <script src="js/script.js" defer></script>

@@ -14,7 +14,7 @@ public class App {
         post("/calculadora", (request, response) -> {
             linkedList list = new linkedList();
             Double list2[] = new Double[] {};
-            String req = request.body(); //String en formato json
+            String req = request.body();
 
             String[] json = req.replace("\"", "").replace("[", "").replace("]", "").split(",");
 
@@ -25,7 +25,7 @@ public class App {
 
             calculadora cal = new calculadora(list);
 
-            return "{\"mean\":" + cal.media() + ", \"dev\":" + cal.desviacion() + "}";
+            return "{\"media\":" + cal.media() + ", \"desvi\":" + cal.desviacion() + "}";
 
         });
     }
