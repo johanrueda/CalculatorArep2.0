@@ -31,11 +31,11 @@ Luego ejecutamos el programa con el siguiente comando:
 
 **java -cp target/herokuACalcu-1.0-SNAPSHOT.jar edu.escuelaing.arem.ASE.app.App**
 
-de esta manera la aplicacion corre localmente.
+de esta manera la aplicacion corre localmente, en tu navegador favorito colocas localhost:4546.
 
 Pero tambien dicha aplicacion tiene un despliegue en heroku que puedes utilizar en cualquier momento.
 
-**LINK HEROKU**
+[Heroku](https://boiling-escarpment-96798.herokuapp.com/)
 
 ## Pruebas [![CircleCI](https://circleci.com/gh/johanrueda/CalculatorArep2.0.svg?style=svg)](https://circleci.com/gh/johanrueda/CalculatorArep2.0)
 
@@ -50,6 +50,8 @@ este es el resultado del programa y lo esperado:
 
 
 ![](img/resultado.png)
+
+![](img/pw.png)
 
 ## Documentación
 
