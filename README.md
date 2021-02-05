@@ -44,7 +44,11 @@ Para ejecutar las pruebas basta con un comando sencillo ya que estan automatizad
 **mvn test**
 
 este es el resultado del programa y lo esperado:
+
+
 ![](img/pruebase.png)
+
+
 ![](img/resultado.png)
 
 ## Documentación
